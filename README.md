@@ -18,30 +18,30 @@ Bu projede kripto para izleme uygulamasını alacak ve 2 custom hook oluşturup,
 
 ### Görev 1: Proje Kurulumu
 
-* [ ] Projeyi forklayın.
-* [ ] Klonlayın
-* [ ] Proje dizinine gidin
-* [ ] `npm install`
-* [ ] `npm start`
+* [X] Projeyi forklayın.
+* [X] Klonlayın
+* [X] Proje dizinine gidin
+* [X] `npm install`
+* [X] `npm start`
 
 ### Görev 2: Proje Gereksinimleri
 
 #### Bir geceModuAc hooku oluşturun
 
-* [ ] `hooks` adında bir klasör oluşturun
-* [ ] `geceModuAc.js` adında bir dosya oluşturun.
-* [ ] Sadece bir boolean(true/false) state değeri ile yüklenen bir hook oluşturun. Bu değer gece modunun açık olup olmadığını belirlemeye yarayacak.
-* [ ] Oluşturduğunuz state dilimini ve state'i düzenlemenize yarayan fonksiyonu döndürün.
-* [ ] App.js'deki geceModu state tanımlamasını oluşturduğunuz geceModuAc hooku ile değiştirin.
+* [X] `hooks` adında bir klasör oluşturun
+* [X] `geceModuAc.js` adında bir dosya oluşturun.
+* [X] Sadece bir boolean(true/false) state değeri ile yüklenen bir hook oluşturun. Bu değer gece modunun açık olup olmadığını belirlemeye yarayacak.
+* [X] Oluşturduğunuz state dilimini ve state'i düzenlemenize yarayan fonksiyonu döndürün.
+* [X] App.js'deki geceModu state tanımlamasını oluşturduğunuz geceModuAc hooku ile değiştirin.
 
 #### localStorageKullan hooku oluşturun
 
-* [ ] `localStorageKullan.js` adında bir dosya oluşturun.
-* [ ] Bir key value ve baslangicDegeri alan bir hook oluşturun.
+* [X] `localStorageKullan.js` adında bir dosya oluşturun.
+* [X] Bir key value ve baslangicDegeri alan bir hook oluşturun.
 
 #### geceModuAc çevresinde localStorageKullan 'ı kullanın
 
-* [ ] geceModuAc hooku içine localStorageKullan'ı import edin.
-* [ ] localStorage'a kaydedilmiş değere göre UI'den switche tıklandığında gece modunu açıp kapatmayı ayarlayın.
-* [ ] App kapatılıp açıldığında gece modu daha önce aktif edildiyse uygulama gece modunda başlasın.
+* [X] geceModuAc hooku içine localStorageKullan'ı import edin.
+* [X] localStorage'a kaydedilmiş değere göre UI'den switche tıklandığında gece modunu açıp kapatmayı ayarlayın.
+* [X] App kapatılıp açıldığında gece modu daha önce aktif edildiyse uygulama gece modunda başlasın.
 

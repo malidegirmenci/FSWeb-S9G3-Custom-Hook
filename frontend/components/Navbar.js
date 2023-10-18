@@ -3,9 +3,8 @@ import React from 'react';
 const Navbar = (props) => {
   const toggleMode = e => {
     e.preventDefault();
-    props.setGeceModu(!props.geceModu);
+    props.handleGeceModu(!props.geceModu);
   };
-
   return (
     <nav className="navbar">
       <h1>Kripto İzleyici</h1>
